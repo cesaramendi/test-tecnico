@@ -1,7 +1,0 @@
-Dado qu la API consta de tres end points que tienen diferente metodo lo he separado por un switch:
-
-	"Pedir cita medica (al paciente)" es POST, resive un .json y lo guardaria en la base de datos.
-
-	"Listar mis citas del día (al médico)" es un GET que recibe el id del Medico y consulta las citas de ese dia.
-
-	"Confirmar cita (al médico)" es un PUT que recibe los datos de la cita y el estado a guardar (confirmado=1, rechazado=2).
